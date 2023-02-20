@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: Solitreo;
+    src: url("../fonts/Solitreo-Regular.ttf");
+}
+
+.app-title{
+    font-family: Solitreo;
+}
+
+.star-bg{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    height: 1px;
+    width: 1px;
+    border-radius: 50%;
+}
