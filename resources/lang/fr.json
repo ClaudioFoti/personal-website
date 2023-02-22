@@ -3,8 +3,8 @@
     "Italian": "Italien",
     "French": "Français",
     "Home": "Accueil",
-    "About Me": "À propos de moi",
-    "Contact Me": "Contactez-moi",
+    "About me": "À propos de moi",
+    "Contact me": "Contactez-moi",
     "My name is Claudio Foti and I am a Full-Stack and Software Developer.": "Je m'appelle Claudio Foti et je suis un développeur Full-Stack et Logiciel.",
     "I come from Switzerland and I am currently studying in Barcelona to complete my Bachelor's degree in Cyber Security at ": "Je viens de Suisse et j'étudie actuellement à Barcelone pour mon Bachelor en Cyber Securité à ",
     "Harbour.Space University": "l'université Harbour.Space",
@@ -38,5 +38,12 @@
     "August 2020": "Août 2020",
     "Now": "Maintenant",
     "I have worked for several individuals and companies as a freelancer. During these mandates, I created showcase websites (HTML5 + CSS3 + jQuery) or Wordpress websites. I also created internal tools for real estate portals in PHP or scripting languages.": "J'ai travaillé pour plusieurs particuliers et entreprises en free-lance. Durant ces mandats, j'ai créé des sites vitrines (HTML5 + CSS3 + jQuery) ou des sites Wordpress. J'ai également créé des outils internes pour des portails immobiliers en PHP ou langages de scripting.",
-    "Some of my best technical skills": "Certaines de mes meilleures aptitudes techniques"
+    "Some of my best technical skills": "Certaines de mes meilleures aptitudes techniques",
+    "Your email": "Votre email",
+    "Subject": "Sujet",
+    "Subject of your request": "Sujet de votre requête",
+    "Your message": "Votre message",
+    "Leave your message here": "Laissez votre message ici",
+    "Send": "Envoyer",
+    "My Curriculum Vitae": "Mon Curriculum Vitae"
 }
