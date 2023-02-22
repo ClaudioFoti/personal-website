@@ -20,6 +20,8 @@ Route::middleware(\App\Http\Middleware\LocaleMiddleware::class)->group(function(
     })->name('welcome');
 });
 
+Route::get('downloadCV', [\App\Http\Controllers\FileController::class, 'downloadCV'])->name('downloadCV');
+
 Route::get('setLocale', [\App\Http\Controllers\LocaleController::class, 'setLocale'])->name('setLocale');
 
 Route::get('/dashboard', function () {
