@@ -3,7 +3,7 @@
 return [
     'sidemenu' => [
         [
-            'title' => 'About Me',
+            'title' => 'About me',
             'url' => 'about-me',
         ],
         [
@@ -13,10 +13,6 @@ return [
         [
             'title' => 'Experience',
             'url' => 'experience',
-        ],
-        [
-            'title' => 'Contact Me',
-            'url' => 'contact',
         ],
     ],
 

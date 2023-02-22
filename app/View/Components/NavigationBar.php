@@ -8,9 +8,6 @@ use Illuminate\View\Component;
 
 class NavigationBar extends Component
 {
-    public array $languages;
-    public array $active_language;
-
     /**
      * Create a new component instance.
      *
@@ -18,17 +15,7 @@ class NavigationBar extends Component
      */
     public function __construct()
     {
-        $this->languages = config('claudiofoti.languages');
 
-        if(session()->has('locale')){
-            $locale = session('locale');
-        }
-        else{
-            $locale = App::getFallbackLocale();
-        }
-
-        $this->active_language = $this->languages[$locale];
-        unset($this->languages[$locale]);
     }
 
     /**
