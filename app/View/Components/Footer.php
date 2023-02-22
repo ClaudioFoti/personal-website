@@ -8,12 +8,13 @@ use Illuminate\View\Component;
 
 class Footer extends Component
 {
+    public array $menu;
     /**
      * Create a new component instance.
      */
     public function __construct()
     {
-        //
+        $this->menu = config('claudiofoti.sidemenu');
     }
 
     /**
