@@ -13,19 +13,11 @@
     <!-- Custom CSS -->
     @vite('resources/css/app.css')
 
-    <!-- Flowbite -->
-    <link rel="stylesheet" href="https://unpkg.com/flowbite@1.5.4/dist/flowbite.min.css"/>
-
-    <!-- ---------- JS ---------- -->
-
-    <!-- Flowbite -->
-    <script src="https://unpkg.com/flowbite@1.5.4/dist/flowbite.js"></script>
-
-    @if($usesLivewire)
-        @livewireStyles
-    @endif
+    @livewireStyles
 </head>
 <body class="antialiased d-flex flex-column bg-primary-light dark:bg-primary-dark">
+
+<x-contact-modal/>
 
 <x-navigation-bar/>
 
@@ -54,9 +46,7 @@
 
 <x-footer/>
 
-@if($usesLivewire)
-    @livewireScripts
-@endif
+@livewireScripts
 
 <!-- Custom JS -->
 @vite('resources/js/jquery-3.6.3.min.js')
