@@ -13,7 +13,6 @@ class SiteLayout extends Component
      */
     public function __construct(
         public string $title = 'Claudio Foti',
-        public bool $usesLivewire = false,
     ) {
     }
 

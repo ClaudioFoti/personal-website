@@ -1,4 +1,4 @@
-<x-site-layout title="Home" :usesLivewire="false">
+<x-site-layout>
     <div id="content">
         <x-about-me-section/>
         <x-education-section/>
