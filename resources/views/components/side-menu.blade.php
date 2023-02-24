@@ -1,4 +1,3 @@
-@vite('resources/css/side-menu.css')
 <nav id="dot" class="z-50">
     <ul>
         @foreach($menu as $element)

@@ -1,4 +1,3 @@
-@vite('resources/css/planet.css')
 <div class="planet-container">
     <div class="ring-before" style="border-color: {{$ringColor}}"></div>
     <div class="ring-bigger-before" style="border-color: {{$ringOuterColor}}"></div>
