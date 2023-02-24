@@ -24,6 +24,8 @@ Route::get('downloadCV', [\App\Http\Controllers\FileController::class, 'download
 
 Route::get('setLocale', [\App\Http\Controllers\LocaleController::class, 'setLocale'])->name('setLocale');
 
+Route::post('contact', [\App\Http\Controllers\ContactController::class, 'contact'])->name('contact');
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');

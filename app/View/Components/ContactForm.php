@@ -6,17 +6,12 @@ use Closure;
 use Illuminate\Contracts\View\View;
 use Illuminate\View\Component;
 
-class FormTextArea extends Component
+class ContactForm extends Component
 {
     /**
      * Create a new component instance.
      */
-    public function __construct(
-        public string $id,
-        public string $name,
-        public string $title,
-        public string $placeholder
-    )
+    public function __construct()
     {
         //
     }
@@ -26,6 +21,6 @@ class FormTextArea extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('components.form-text-area');
+        return view('components.contact-form');
     }
 }

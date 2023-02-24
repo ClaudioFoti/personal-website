@@ -13,9 +13,10 @@ class FormTextInput extends Component
      */
     public function __construct(
         public string $id,
+        public string $name,
         public string $title,
         public string $type,
-        public string $placeholder,
+        public string $placeholder
     )
     {
         //

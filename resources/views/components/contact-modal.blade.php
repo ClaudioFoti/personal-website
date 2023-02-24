@@ -7,7 +7,7 @@
             </button>
             <div class="px-6 py-6 lg:px-8">
                 <h3 class="mb-4 text-xl font-medium text-primary-dark dark:text-primary-light">{{__("Contact me")}}</h3>
-                <livewire:contact-form/>
+                <x-contact-form/>
             </div>
         </div>
     </div>

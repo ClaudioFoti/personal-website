@@ -1,7 +1,8 @@
-<form class="space-y-6" action="#">
-    <x-form-text-input id="email" type="email" :title="__('Your email')" :placeholder="__('Your email')" />
-    <x-form-text-input id="subject" type="text" :title="__('Subject')" :placeholder="__('Subject of your request')" />
-    <x-form-text-area id="message" :title="__('Your message')" :placeholder="__('Leave your message here')" />
+<form class="space-y-6" method="post" action="{{route('contact')}}">
+    @csrf
+    <x-form-text-input :required="true" :title="__('Your email')" type="email" id="email" name="email" :placeholder="__('Your email')"/>
+    <x-form-text-input :required="true" :title="__('Subject')" type="text" id="subject" name="subject" :placeholder="__('Subject')"/>
+    <x-form-text-area :required="true" :title="__('Your message')" id="message" name="message" :placeholder="__('Leave your message here')"/>
 
     <button
             type="submit"
