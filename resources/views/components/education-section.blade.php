@@ -1,6 +1,6 @@
 <x-section pos="right" title="{{__('Education')}}" id="education">
     <x-slot:planet>
-        <x-planet planetColor1="#F9D923" planetColor2="#36AE7C" planetColor3="#187498" ringColor="rgb(198, 147, 217, 0.8)" ringOuterColor="#c693d9"/>
+        <x-planet planetColor1="#F9D923" planetColor2="#36AE7C" planetColor3="#187498" ringColor="rgb(247, 219, 59, 0.8)" ringOuterColor="#f7db3b  "/>
     </x-slot:planet>
 
     <ol class="relative border-l border-primary-700 dark:border-primary-200">
