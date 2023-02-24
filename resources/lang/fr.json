@@ -6,7 +6,7 @@
     "About me": "À propos de moi",
     "Contact me": "Contactez-moi",
     "My name is Claudio Foti and I am a Full-Stack and Software Developer.": "Je m'appelle Claudio Foti et je suis un développeur Full-Stack et Logiciel.",
-    "I come from Switzerland and I am currently studying in Barcelona to complete my Bachelor's degree in Cyber Security at ": "Je viens de Suisse et j'étudie actuellement à Barcelone pour mon Bachelor en Cyber Securité à ",
+    "I come from Switzerland and I am currently studying in Barcelona to complete my Bachelor's degree in Cyber Security at ": "Je viens de Suisse et j'étudie actuellement à Barcelone pour mon Bachelor en Cyber Sécurité à ",
     "Harbour.Space University": "l'université Harbour.Space",
     "Your name": "Votre nom",
     "Education": "Éducation",
@@ -45,5 +45,18 @@
     "Your message": "Votre message",
     "Leave your message here": "Laissez votre message ici",
     "Send": "Envoyer",
-    "My Curriculum Vitae": "Mon Curriculum Vitae"
+    "My Curriculum Vitae": "Mon Curriculum Vitae",
+    "Email address": "Adresse email",
+    "Phone number": "Numéro de téléphone",
+    "GitHub account": "Compte GitHub",
+    "LinkedIn account": "Compte LinkedIn",
+    "You have successfully sent me a message!": "Votre message m'a bien été envoyé!",
+    "The email field must not be greater than 50 characters.": "Votre email doit avoir moins de 50 caractères.",
+    "The email field must be a valid email address.": "Votre email doit être une adresse valide.",
+    "The email field is required.": "Votre email est requis.",
+    "The subject field must not be greater than 50 characters.": "Votre sujet doit avoir moins de 50 caractères.",
+    "The subject field is required.": "Veuillez renseigner un sujet.",
+    "The message field must not be greater than 250 characters.": "Votre message doit avoir moins de 250 caractères.",
+    "The message field is required.": "Veuillez renseigner un message.",
+    "Errors have been detected on the contact form. Please try again.": "Des erreurs ont été détectées sur le formulaire de contact. Veuillez réessayer."
 }
