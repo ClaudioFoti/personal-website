@@ -3,20 +3,23 @@
 namespace App\Http\Controllers;
 
 use App\Http\Requests\ContactRequest;
+use App\Mail\ContactMail;
 use Carbon\Carbon;
-use Illuminate\Support\Facades\Storage;
+use Illuminate\Support\Facades\Mail;
 
 class ContactController extends Controller
 {
-    private string $contact_path = "contacts/";
+    public function contact(ContactRequest $request)
+    {
+        $contact_data = [
+            'email' => $request->email,
+            'subject' => $request->subject,
+            'message' => $request->message,
+            'timestamp' => Carbon::now('Europe/Zurich')->format("d.m.Y-H:i:s"),
+            'language' => session("locale")
+        ];
 
-    public function contact(ContactRequest $request){
-        $filename = $this->contact_path.Carbon::now('Europe/Zurich')->format("Y_m_d-H_i_s").".txt";
-
-        Storage::disk('local')->put(
-            $filename,
-            "Email:".$request->email."\nSubject:".$request->subject."\nLanguage:".session("locale")."\nMessage:".$request->message
-        );
+        Mail::to(config('mail.to.address'))->send(new ContactMail($contact_data));
 
         session()->flash('contact_form_success', "You have successfully sent me a message!");
 
