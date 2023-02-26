@@ -102,6 +102,11 @@ return [
         'name' => env('MAIL_FROM_NAME', 'Example'),
     ],
 
+    'to' => [
+        'address' => env('MAIL_TO','info@claudiofoti.ch'),
+        'name' => env('MAIL_TO_NAME','Claudio Foti'),
+    ],
+
     /*
     |--------------------------------------------------------------------------
     | Markdown Mail Settings
