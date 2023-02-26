@@ -5,7 +5,7 @@ This is my personal website.
 
 ## Tech Stack
 
-**Client:** TailwindCSS
+**Client:** TailwindCSS, FlowBite, JQuery
 
 **Server:** Laravel
 
