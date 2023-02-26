@@ -9,7 +9,7 @@ class FileController extends Controller
     public function downloadCV()
     {
         if(session()->has('locale') && session('locale') == "fr"){
-            $file_name = "CV - Français.pdf";
+            $file_name = "CV - Francais.pdf";
         }
         else{
             $file_name = "CV - English.pdf";
