@@ -11,7 +11,7 @@
 
     <!-- ---------- Styles ---------- -->
     <!-- Custom CSS -->
-    <link href="../../css/app.css" rel="stylesheet">
+    @vite('resources/css/app.css')
 </head>
 <body class="dark">
     <div class="antialiased d-flex flex-column bg-primary-light dark:bg-primary-dark">
@@ -63,7 +63,7 @@
                 src="https://code.jquery.com/jquery-3.6.3.min.js"
                 integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
                 crossorigin="anonymous"></script>
-        <script src="../../js/app.js"></script>
+        @vite('resources/js/app.js')
 
     </div>
 </body>
