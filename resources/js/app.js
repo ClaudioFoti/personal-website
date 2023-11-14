@@ -12,21 +12,19 @@ function isDarkMode(){
     return localStorage.getItem('color-theme') === 'dark' || (!('color-theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches);
 }
 
-if(isDarkMode()){
-    function randomNumber(min, max) {
-        return Math.floor(Math.random() * (max - min + 1)) + min;
-    }
-
-    function generateBoxShadow(starCount){
-        let result = "";
-        for(let i = 0; i < starCount; i++){
-            result += `${randomNumber(-50, 50)}vw ${randomNumber(-50, 50)}vh ${randomNumber(1, 2)}px ${randomNumber(1, 2)}px rgb(255,255,171,0.5),`;
-        }
-
-        return result.substring(0, result.length - 1);
-    }
-    document.getElementsByClassName('star-bg')[0].style.boxShadow = generateBoxShadow(35);
+function randomNumber(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
 }
+
+function generateBoxShadow(starCount){
+    let result = "";
+    for(let i = 0; i < starCount; i++){
+        result += `${randomNumber(-50, 50)}vw ${randomNumber(-50, 50)}vh ${randomNumber(1, 2)}px ${randomNumber(1, 2)}px rgb(255,255,171,0.5),`;
+    }
+
+    return result.substring(0, result.length - 1);
+}
+document.getElementsByClassName('star-bg')[0].style.boxShadow = generateBoxShadow(35);
 
 //startregion Side menu
 
