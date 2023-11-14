@@ -11,7 +11,7 @@
 
     <!-- ---------- Styles ---------- -->
     <!-- Custom CSS -->
-    @vite('resources/css/app.css')
+    <link href="../../css/app.css">
 </head>
 <body class="dark">
     <div class="antialiased d-flex flex-column bg-primary-light dark:bg-primary-dark">
